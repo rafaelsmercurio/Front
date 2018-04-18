@@ -1,27 +1,15 @@
-# Front
+Essa aplicação foi feita usando node.js, javascript, angular e um banco de dados NOSQL chamado mongoDB.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
+Intuito:
 
-## Development server
+ Conforme solicitado pelo grupo UOL, a aplicação serve para organizar técnicos e incidentes de acordo com cada dia, de trabalho, cada técnico fica responsável por resolver os incidentes por dia, para isso foi feito um CRUD onde é possivel inserir número/nome de incidente, nome do técnico, data e uma breve descrição do que é pedido no incidente.
+ O software realisa novos cadastros de incidentes que são mostrados em uma lista onde também é possível excluir os incidentes que já tiverem sido resolvidos ou cancelados.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Instalação de requisitos:
 
-## Code scaffolding
+   1. Ao clonar o projeto utilizar o yarn ou o npm para do download das dependências do sitema. Use o comando yarn install ou npm install parar.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+   2. Após a instalação das dependências é necessário ativar o servidor através do comando: node index.js.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+   3. Ativado o servidor só resta iniciar o banco, utilize o comando no terminal: "mongod --dbpath=/data.
+ 
